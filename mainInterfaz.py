@@ -10,7 +10,7 @@ rule_set = pd.read_csv(filepath)
 class ExpertSystemWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Sistema Experto - Consulta Médica")
+        self.setWindowTitle("Sistema Experto - Consultas")
         self.setGeometry(100, 100, 600, 300)
 
         # Crear el layout principal
