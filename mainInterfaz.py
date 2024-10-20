@@ -124,12 +124,15 @@ class ExpertSystemWindow(QMainWindow):
 
     def start_new_request(self):
         selected_method = self.reasoning_method_combo.currentText()
+        self.output_text.clear()
         if selected_method == "Forward-Chaining":
             self.output_text.append("Iniciando forward-chaining...")
             self.setup_forward_chaining()
         elif selected_method == "Backward-Chaining":
             self.output_text.append("Iniciando backward-chaining...")
             self.setup_backward_chaining()
+
+    
 
     def clear_checkboxes(self):
         for checkbox in self.symptom_checkboxes:
