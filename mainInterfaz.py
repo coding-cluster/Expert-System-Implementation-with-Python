@@ -24,7 +24,7 @@ class ExpertSystemWindow(QMainWindow):
             }
             QLabel {
                 font-size: 24px;
-                color: #333;
+                color: #000000;
             }
             QPushButton {
                 background-color: #007ACC;
@@ -38,6 +38,7 @@ class ExpertSystemWindow(QMainWindow):
             }
             QComboBox {
                 background-color: white;
+                foreground-color: black;
                 border: 1px solid #ccc;
                 padding: 4px;  /* Reducir el padding del combobox */
                 font-size: 18px;
