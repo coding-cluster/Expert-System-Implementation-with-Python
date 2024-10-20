@@ -186,7 +186,7 @@ class ExpertSystemWindow(QMainWindow):
         self.known_facts = set()
         self.known_false = set()
         self.remaining_conditions = rule_set['Condición'].tolist()
-        self.scroll_area.hide()  # Hide the scroll area for backward chaining
+        self.scroll_area.show()  # Show the scroll area for backward chaining
         self.dynamic_symptom_inquiry()
 
     def dynamic_symptom_inquiry(self):
@@ -203,6 +203,8 @@ class ExpertSystemWindow(QMainWindow):
             self.output_text.append(f"Ya se verificaron todos los síntomas para {condition}.")
             self.process_next_condition()
             return
+
+        self.clear_checkboxes()  # Clear previous checkboxes
 
         for symptom in condition_symptoms:
             checkbox = QCheckBox(symptom)
@@ -229,16 +231,16 @@ class ExpertSystemWindow(QMainWindow):
 
         if all(symptom in self.known_facts for symptom in condition_symptoms):
             self.output_text.append(f"¡Condición derivada: {current_condition}!")
-            self.clear_checkboxes()
             self.remaining_conditions = []  # Stop when a condition is deduced
         else:
             self.output_text.append(f"No se pudo derivar la condición: {current_condition}.")
             self.remaining_conditions.pop(0)
+
+        if len(self.remaining_conditions) > 0:
+            self.dynamic_symptom_inquiry()
+        else:
+            self.output_text.append("No se pudieron derivar más condiciones.")
             self.clear_checkboxes()
-            if len(self.remaining_conditions) > 0:
-                self.dynamic_symptom_inquiry()
-            else:
-                self.output_text.append("No se pudieron derivar más condiciones.")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
