@@ -21,14 +21,15 @@ class ExpertSystemWindow(QMainWindow):
             QWidget {
                 background-color: #f4f4f9;
                 font-family: Arial;
+                color: black;  /* Texto negro para todos los widgets */
             }
             QLabel {
                 font-size: 24px;
-                color: #000000;
+                color: black;  /* Asegurarte que la etiqueta sea negra */
             }
             QPushButton {
                 background-color: #007ACC;
-                color: white;
+                color: white;  /* Texto blanco para el botón */
                 border-radius: 5px;
                 padding: 8px;  /* Reducir el padding para hacer más compacto el botón */
                 font-size: 18px;  /* Reducir el tamaño de fuente del botón */
@@ -38,10 +39,10 @@ class ExpertSystemWindow(QMainWindow):
             }
             QComboBox {
                 background-color: white;
-                foreground-color: black;
                 border: 1px solid #ccc;
                 padding: 4px;  /* Reducir el padding del combobox */
                 font-size: 18px;
+                color: black;  /* Texto negro para el combobox */
             }
         """)
 
