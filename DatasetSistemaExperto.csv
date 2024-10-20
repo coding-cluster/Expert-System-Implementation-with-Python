@@ -1,0 +1,50 @@
+Condición,Síntoma 1,Síntoma 2,Síntoma 3,Síntoma 4
+Resfriado Común,Rinorrea,Dolor de garganta,Estornudos,Tos leve
+Influenza (Gripe),Fiebre alta,Dolores musculares,Fatiga,Tos
+Faringitis Estreptocócica,Dolor de garganta,Fiebre,Nódulos linfáticos inflamados,Dificultad para tragar
+Bronquitis,Tos persistente,Producción de moco,Dificultad para respirar,Fatiga
+Neumonía,Dolor en el pecho,Tos con flema,Fiebre,Dificultad para respirar
+Asma,Sibilancias,Dificultad para respirar,Sensación de opresión en el pecho,Tos
+COVID-19,Fiebre,Tos,Pérdida del olfato,Dificultad para respirar
+Hipertensión (Presión alta),Dolor de cabeza,Mareos,Visión borrosa,Dificultad para respirar
+Migraña,Dolor de cabeza severo,Náuseas,Sensibilidad a la luz,Sensibilidad al sonido
+Sinusitis,Dolor facial,Congestión nasal,Dolor de cabeza,Goteo posnasal
+Gastroenteritis,Náuseas,Vómitos,Diarrea,Dolores abdominales
+Úlcera Péptica,Dolor ardiente en el estómago,Náuseas,Pérdida de peso,Hinchazón
+Apendicitis,Dolor agudo en la parte inferior derecha,Náuseas,Vómitos,Fiebre
+Síndrome del Intestino Irritable (SII),Dolor abdominal,Hinchazón,Diarrea o estreñimiento,Cólicos
+Infección del Tracto Urinario (ITU),Micción frecuente,Sensación de ardor,Dolor pélvico,Orina turbia
+Cálculos Renales,Dolor severo en la parte baja de la espalda,Náuseas,Micción dolorosa,Sangre en la orina
+Cálculos Biliares,Dolor súbito en la parte superior derecha,Náuseas,Vómitos,Hinchazón
+Hepatitis A,Fatiga,Náuseas,Ictericia,Orina oscura
+Diabetes Mellitus (Tipo 2),Micción frecuente,Aumento de la sed,Fatiga,Visión borrosa
+Hipotiroidismo,Fatiga,Aumento de peso,Piel seca,Sensibilidad al frío
+Hipertiroidismo,Pérdida de peso,Latido rápido del corazón,Temblores,Ansiedad
+Anemia,Fatiga,Piel pálida,Mareos,Dificultad para respirar
+Artritis Reumatoide,Dolor en las articulaciones,Hinchazón,Rigidez,Fatiga
+Osteoartritis,Dolor en las articulaciones,Rigidez,Mobilidad reducida,Hinchazón
+Gota,Dolor articular súbito,Hinchazón,Rubor,CALOR en la articulación
+Lupus,Fatiga,Dolor articular,Erupción cutánea,Fiebre
+Psoriasis,Parches de piel escamosos,Picazón,Piel seca,Rubor
+Eczema,Piel con picazón,Erupción roja,Parches secos,Piel agrietada
+Varicela,Erupción con picazón, ampollas,Fiebre,Fatiga
+Sarampión,Fiebre alta,Erupción roja,Tos,Rinorrea
+Paperas,Glandulas salivales inflamadas,Fiebre,Dolores musculares,Dolor de cabeza
+Rubéola,Erupción,Fiebre leve,Dolor articular,Nódulos linfáticos inflamados
+Fiebre Escarlatina,Erupción roja,Dolor de garganta,Fiebre alta,Lengua inflamada
+Enfermedad de Mano Pie y Boca,Llagas en manos y pies,Fiebre,Dolor de garganta,Pérdida de apetito
+Enfermedad de Lyme,Erupción en forma de diana,Fiebre,Fatiga,Dolor articular
+VIH/SIDA,Pérdida de peso,Fiebre,Fatiga,Nódulos linfáticos inflamados
+Tuberculosis,Tos persistente,Sangre en el esputo,Sudores nocturnos,Pérdida de peso
+Malaria,Fiebre,Escalofríos,Sudoración,Náuseas
+Fiebre Dengue,Fiebre alta,Dolor de cabeza severo,Dolor articular,Erupción cutánea
+Virus del Zika,Fiebre leve,Erupción,Dolor articular,Ojos rojos
+Cólera,Diarrea acuosa,Deshidratación,Náuseas,Vómitos
+Hepatitis B,Fatiga,Ictericia,Orina oscura,Dolor abdominal
+Hepatitis C,Fatiga,Náuseas,Ictericia,Dolores musculares
+Depresión,Tristeza persistente,Fatiga,Pérdida de interés,Problemas de sueño
+Trastorno de Ansiedad Generalizada,Preocupación excesiva,Nerviosismo,Tensión muscular,Dificultad para concentrarse
+Trastorno Bipolar,Cambios de humor,Períodos de depresión,Períodos de manía,Irritabilidad
+Esquizofrenia,Alucinaciones,Delirios,Pensamiento desorganizado,Aislamiento social
+Insomnio,Dificultad para dormir,Despertar frecuente,Fatiga diurna,Irritabilidad
+Apnea del Sueño Obstructiva,Ronquidos fuertes,Somnolencia diurna,Pausas en la respiración,Dolor de cabeza matutino
