@@ -1,0 +1,14 @@
+vehicle,vehicleType,num_wheels,motor,num_doors,size
+bicycle,cycle,2,no,0,small
+tricycle,cycle,3,no,0,small
+motorcycle,cycle,2,yes,0,small
+Sports_Car,automobile,4,yes,2,small
+Sedan,automobile,4,yes,4,medium
+MiniVan,automobile,4,yes,3,medium
+Sports_Utility_Vehicle,automobile,4,yes,4,large
+automobile,automobile,4,yes,,
+,cycle,<4,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

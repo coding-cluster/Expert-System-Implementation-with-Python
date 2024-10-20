@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout,
 from PyQt5.QtCore import Qt
 import pandas as pd
 
-filepath = 'C:\\Users\\alexi\\Documents\\03 - PYTHON DEV\\DatasetSistemaExperto.csv'
+filepath = 'KnowledgeBaseMedical.csv'
 rule_set = pd.read_csv(filepath)
 
 
@@ -112,7 +112,6 @@ class ExpertSystemWindow(QMainWindow):
         elif selected_method == "Backward-Chaining":
             print("Iniciando backward-chaining...")
             # Aquí iría la lógica para el backward chaining
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
