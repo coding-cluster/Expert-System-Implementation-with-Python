@@ -156,6 +156,8 @@ class ExpertSystemWindow(QMainWindow):
             self.submit_button.deleteLater()
             self.submit_button = None
 
+    # Corregir
+
     def setup_forward_chaining(self, columna):
         self.clear_checkboxes()
         self.known_facts = set()
