@@ -1,0 +1,11 @@
+vehicle,vehicleType,num_wheels,motor,num_doors,size
+bicycle,ciclo,2 ruedas,sin motor,0 puertas,tamano pequeno
+tricycle,ciclo,3 ruedas,sin motor,0 puertas,tamano pequeno
+motorcycle,ciclo,2 ruedas,con motor,0 puertas,tamano pequeno
+Sports_Car,automobil,4 ruedas,con motor,2 puertas,tamano pequeno
+Sedan,automobil,4 ruedas,con motor,4 puertas,tamano mediano
+MiniVan,automobil,4 ruedas,con motor,3 puertas,tamano mediano
+Sports_Utility_Vehicle,automobil,4 ruedas,con motor,4 puertas,tamano grande
+,automobil,4 ruedas,con motor,,
+,ciclo,2 ruedas,,,
+,ciclo,3 ruedas,,,
